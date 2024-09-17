@@ -98,6 +98,10 @@
 }
 
 @media screen and (max-width: 650px) {
+    .gpt3__whatgpt3-container{
+      padding:0;
+       
+    }
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-feature .gpt3__features-container__feature {
         flex-direction: column;
@@ -114,10 +118,18 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
+    .gpt3__whatgpt3{
+        margin:0;
+        padding: none;
+    }
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-container .gpt3__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
+    }
+    .gpt3__whatgpt3-heading h1 {
+        font-size: 20px;
+        line-height: 30px;
     }
 }
