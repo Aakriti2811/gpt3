@@ -61,14 +61,9 @@
     }
 
     .gpt3__possibility-image {
-        margin: 1rem 0;
-    }
+        display:none;
 
-    .gpt3__possibility-image img {
-        width: unset;
-        height: unset;
     }
-
     .gpt3__possibility-content {
         margin-top: 2rem;
     }
